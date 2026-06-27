@@ -287,10 +287,4 @@ terraform destroy
 
 ---
 
-## Author
-
-**Abdirahman Yusuf**
-
-DevOps Portfolio Project – Assignment 1
-
-Deploy WordPress Using Terraform on AWS.
+DevOps WordPress Using Terraform on AWS.
