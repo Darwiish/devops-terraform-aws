@@ -1,0 +1,29 @@
+#cloud-config
+
+# Update system packages on first boot
+package_update: true
+package_upgrade: true
+
+# Install required software automatically (NGINX web server)
+packages:
+  - nginx
+
+# Create a custom HTML page automatically
+write_files:
+  - path: /var/www/html/index.html
+    content: |
+      <html>
+      <body>
+      <h1>Assignment 2 Good To Go!</h1>
+      <p>Cloud-init + Terraform automated deployment completed</p>
+      </body>
+      </html>
+    permissions: '0644'
+
+# Commands that run after packages are installed
+runcmd:
+  # Enable nginx service to start on boot
+  - systemctl enable nginx
+
+  # Start nginx immediately
+  - systemctl start nginx
