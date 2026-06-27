@@ -284,7 +284,6 @@ To remove all resources:
 ```bash
 terraform destroy
 ```
-
 ---
 
 DevOps WordPress Using Terraform on AWS.
