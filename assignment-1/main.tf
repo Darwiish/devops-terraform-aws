@@ -94,7 +94,7 @@ resource "aws_instance" "wordpress" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
 
-  subnet_id                   = aws_subnet.public_subnet.id
+  subnet_id = aws_subnet.public_subnet.id
   associate_public_ip_address = true
 
   vpc_security_group_ids = [
