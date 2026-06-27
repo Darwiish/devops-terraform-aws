@@ -35,7 +35,7 @@ The deployment includes:
 
 ## Architecture
 
-![Architecture](screenshots/Untitled Diagram.drawio .png.png)
+![Architecture](screenshots/Untitled Diagram.drawio.png)
 
 
 ---
