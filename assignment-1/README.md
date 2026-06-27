@@ -71,30 +71,6 @@ The deployment includes:
                     │  • Port 443  — HTTPS        │
                     └────────────────────────────┘
 ```
-
----
-
-## Project Structure
-
-```text
-assignment-1/
-├── main.tf
-├── provider.tf
-├── versions.tf
-├── variables.tf
-├── outputs.tf
-├── userdata.sh
-├── README.md
-├── .gitignore
-└── screenshots/
-    ├── 01-terraform-apply.png
-    ├── 02-ec2-instance.png
-    ├── 03-vpc.png
-    ├── 04-security-group.png
-    ├── 05-wordpress-install.png
-    └── 06-wordpress-dashboard.png
-```
-
 ---
 
 ## Prerequisites
@@ -264,15 +240,15 @@ wordpress_url = "http://13.60.xx.xx"
 
 ### EC2 Instance
 
-![EC2 Instance](screenshots/02-ec2-instance.png)
+![EC2 Instance](screenshots/02-aws-ec2-instance.png)
 
 ### VPC
 
-![VPC](screenshots/03-vpc.png)
+![VPC](screenshots/03-aws-vpc.png)
 
 ### Security Group
 
-![Security Group](screenshots/04-security-group.png)
+![Security Group](screenshots/04-aws-security-group.png)
 
 ### WordPress Installation
 
