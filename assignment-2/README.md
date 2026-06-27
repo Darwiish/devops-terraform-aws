@@ -62,24 +62,24 @@ terraform output public_ip
 ## Screenshots
 
 ### 1. Terraform Apply Success
-screenshots/terraform-apply-success.png
+![terraform](screenshots/terraform-apply-success.png)
 
 ### 2. EC2 Running in AWS Console
-screenshots/ec2-running.png
+![ec2](screenshots/ec2-running.png)
 
 ### 3. Security Group Configuration
-screenshots/security-group.png
+![sg](screenshots/security-group.png)
 
 ### 4. Cloud-init Logs
 ssh into instance:
 cat /var/log/cloud-init-output.log
 
-screenshots/cloud-init-logs.png
+![cloud-init](screenshots/cloud-init-logs.png)
 
 ### 5. NGINX Web Page
 http://51.21.167.51
 
-screenshots/nginx-webpage.png
+![nginx](screenshots/nginx-webpage.png)
 
 ---
 
