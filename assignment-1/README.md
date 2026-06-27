@@ -252,7 +252,7 @@ wordpress_url = "http://13.60.xx.xx"
 
 ### WordPress Installation
 
-![WordPress Install](screenshots/05-wordpress-install.png)
+![WordPress Install](screenshots/05-wordpress-install-page.png)
 
 ### WordPress Dashboard
 
