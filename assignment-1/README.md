@@ -35,42 +35,9 @@ The deployment includes:
 
 ## Architecture
 
-```text
-                         Internet
-                            │
-                    ┌───────▼────────┐
-                    │ Internet       │
-                    │ Gateway (IGW)  │
-                    └───────┬────────┘
-                            │
-                    ┌───────▼────────┐
-                    │  Route Table   │
-                    │  0.0.0.0/0 →   │
-                    │     IGW        │
-                    └───────┬────────┘
-                            │
-                    ┌───────▼────────┐
-                    │  Public Subnet │
-                    │  (e.g. /24)    │
-                    └───────┬────────┘
-                            │
-                    ┌───────▼────────────────────┐
-                    │        EC2 Instance         │
-                    │  ┌─────────────────────┐   │
-                    │  │  Apache (HTTP/HTTPS) │   │
-                    │  │  PHP                │   │
-                    │  │  MariaDB            │   │
-                    │  │  WordPress          │   │
-                    │  └─────────────────────┘   │
-                    └───────┬────────────────────┘
-                            │
-                    ┌───────▼────────────────────┐
-                    │      Security Group         │
-                    │  • Port 22   — SSH          │
-                    │  • Port 80   — HTTP         │
-                    │  • Port 443  — HTTPS        │
-                    └────────────────────────────┘
-```
+![Architecture](screenshots/Untitled Diagram.drawio .png.png)
+
+
 ---
 
 ## Prerequisites
