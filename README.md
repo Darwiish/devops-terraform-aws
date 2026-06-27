@@ -75,16 +75,18 @@ Automate EC2 provisioning and configuration using Terraform and cloud-init.
 
 ## Screenshots
 
-Screenshots for Assignment 2 are stored in:
+Screenshots for Assignment 1 and Assignment 2 are stored in their respective folders:
 
-assignment-2/screenshots/
+assignment-1/screenshots/  
+assignment-2/screenshots/  
 
 They include:
+
 - Terraform apply output
 - EC2 instance running
 - Security group configuration
-- Cloud-init logs
-- NGINX web page verification
+- Cloud-init logs (Assignment 2)
+- NGINX web page verification (Assignment 2)
 
 ---
 
