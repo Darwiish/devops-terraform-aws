@@ -1,3 +1,6 @@
+# AWS SSH key (VERY IMPORTANT)
+*.pem
+
 # Terraform state files (contains infrastructure state - NEVER commit)
 *.tfstate
 *.tfstate.backup
