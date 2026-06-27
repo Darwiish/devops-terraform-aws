@@ -1,29 +1,19 @@
-# Terraform directories
-.terraform/
-
-# Terraform state files (IMPORTANT - contains infrastructure state)
+# Terraform state files (contains infrastructure state - NEVER commit)
 *.tfstate
 *.tfstate.backup
 
-# Specific state file (explicit)
-terraform.tfstate
-
-# Crash logs
-crash.log
+# Terraform directory
+.terraform/
 
 # Terraform variables (may contain secrets)
 terraform.tfvars
-*.tfvars
 
-# Terraform CLI lock file (optional but common to include ignore in student projects)
+# Terraform CLI lock file
 .terraform.lock.hcl
 
-# VS Code settings
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
 # Logs
-*.log
+crash.log
+
+# OS / IDE files
+.DS_Store
+.vscode/
