@@ -35,7 +35,7 @@ The deployment includes:
 
 ## Architecture
 
-![Architecture](Assignment-1/architecture.png)
+![Architecture](assignment-1/architecture.png)
 ---
 
 ## Prerequisites
